@@ -1,0 +1,21 @@
+.mainC{
+    border: lightskyblue solid ;
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.name{
+    color: lightskyblue;
+    text-justify: distribute-all-lines;
+    
+}
+
+.genres{
+    color:lightskyblue;
+}
+
+main:hover{
+    background-color: rgba(1, 4, 48, 0.5);
+
+}

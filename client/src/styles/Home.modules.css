@@ -1,0 +1,86 @@
+.divH{
+    background-image: url('https://comarketing-news.fr/wp-content/uploads/gaming-france-1024x576.jpg');
+    -webkit-box-align: center;
+    -webkit-background-size: center; 
+    -moz-background-size: center;
+    -o-background-size: center;
+    background-size: 1500px;
+    min-height: 100vh;
+    padding-top: 20px; 
+}
+
+.Card{
+    display: inline-block;
+    border: 2px medium;
+    padding: 30px;
+}
+
+.titleH{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: white;
+    border-color: red;
+    margin-top: -30px;
+    padding-top: -50px;
+}
+
+.createH{
+    border: 2px solid lightskyblue;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    font-size: 15px;
+    text-anchor: middle;
+    background-color: transparent;
+    color: lightskyblue;
+    margin-left: -1200px;
+    margin-top: -50px;
+}
+
+button:hover{
+    background-color: rgba(1, 4, 48, 0.5);
+}
+
+.reloadButton{
+    border: 2px solid lightskyblue;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 15px;
+    color: lightskyblue;
+    width: 200px;
+    height: 50px;
+    margin-left: -1200px;
+    margin-top: -1000px;
+}
+
+.filterGenre{
+    width: 100px;
+    background-color: transparent;
+    font-size: 15px;
+    border: lightskyblue solid 2px;
+}
+
+.filterName{
+    background-color: transparent;
+    width: 100px;
+    font-size: 15px;
+    border: lightskyblue solid 2px;
+} 
+
+.filterCreated{
+    width: 100px;
+    font-size: 15px;
+    background-color: transparent;
+    border: lightskyblue solid 2px;
+}
+
+.filterRating{
+    width: 100px;
+    font-size: 15px;
+    background-color: transparent;
+    border: lightskyblue solid 2px;
+}
+
+.paginadoH{
+    padding-left:  -100px;
+}

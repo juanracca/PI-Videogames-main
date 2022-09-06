@@ -1,0 +1,21 @@
+.inputSearch{
+    background-color: whitesmoke;
+    font-size: 15px;
+    border: lightskyblue solid 2px;
+    border-radius: 5px;
+}
+
+.buttonSearch{
+    font-size: 15px;
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    border: lightskyblue solid 2px;
+    background-color: transparent;
+    color: lightskyblue;
+}
+
+.divSearch{
+    margin-left: 1100px;
+    margin-top: -70px;
+}

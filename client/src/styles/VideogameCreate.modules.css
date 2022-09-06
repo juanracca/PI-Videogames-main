@@ -1,0 +1,133 @@
+.divVideoCreate{
+    background-image: url('https://comarketing-news.fr/wp-content/uploads/gaming-france-1024x576.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.titleVideoCreate{
+    color: white;
+}
+
+.buttonBackCreate{
+    border: lightskyblue solid 2px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: lightskyblue;
+    height: 40px;
+    width: 70px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.formulario{
+    border: lightskyblue solid 2px;
+    border-radius: 5px;
+    margin-left: 400px;
+    margin-right: 400px;
+
+}
+
+.nameCreate{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.inputNameCreate{
+    border: solid lightskyblue 2px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align:left;
+}
+
+.descCreate{
+    color: white;
+    font-size: 20px;
+}
+.inputDescCreate{
+    border: solid lightskyblue 2px;
+    border-radius: 5px;
+    /* margin-top: 20px; */
+    text-align:left;
+}
+
+.releasedCreate{
+    color: white;
+    font-size: 20px;
+}
+.inputReleasedCreate{
+    border: solid lightskyblue 2px;
+    border-radius: 5px;
+    /* margin-top: 20px; */
+    text-align:left;
+}
+
+.ratingCreate{
+    color: white;
+    font-size: 20px;
+}
+.inputRatingCreate{
+    border: solid lightskyblue 2px;
+    border-radius: 5px;
+    /* margin-top: 20px; */
+    text-align:left;
+}
+
+.imageCreate{
+    color: white;
+    font-size: 20px;
+}
+.inputImageCreate{
+    border: solid lightskyblue 2px;
+    border-radius: 5px;
+    /* margin-top: 20px; */
+    text-align:left;
+}
+
+.platformsCreate{
+    color: white;
+    font-size: 20px;
+}
+.selectPlatformsCreate{
+    border: solid lightskyblue 2px;
+    border-radius: 5px;
+    /* margin-top: 20px; */
+    text-align:left;
+    background-color: white;
+}
+
+.genresCreate{
+    color: white;
+    font-size: 20px;
+}
+.selectGenresCreate{
+    border: solid lightskyblue 2px;
+    border-radius: 5px;
+    /* margin-top: 20px; */
+    text-align:left;
+    background-color: white;
+}
+
+.buttonCreate{
+    border: lightskyblue solid 2px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: lightskyblue;
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.divFormCreate{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px; */
+    /* margin-top: 5px; */
+    /* margin-bottom: 20px; */
+}

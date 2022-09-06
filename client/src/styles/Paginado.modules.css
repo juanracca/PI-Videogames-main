@@ -1,0 +1,14 @@
+.numberPaginado{
+    width: 50px;
+    height: 20px;
+    background-color: transparent;
+    border: lightskyblue solid 2px;
+    border-radius: 5px;
+    color: black;
+    font-size: 10px;
+    padding-left: -100px;
+}
+
+.nav{
+    margin-left: -20px;
+}
