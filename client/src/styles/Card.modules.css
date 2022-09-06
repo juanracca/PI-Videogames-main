@@ -1,21 +1,32 @@
 .mainC{
-    border: lightskyblue solid ;
+    border: none ;
+    background-color: #1a4e6f; 
     height: 400px;
-    width: 300px;
+    width: 350px;
     border-radius: 15px;
 }
 
 .name{
-    color: lightskyblue;
+    color: rgb(233, 233, 233);
     text-justify: distribute-all-lines;
-    
+    padding-top: 10px;
 }
 
 .genres{
-    color:lightskyblue;
+    color: rgb(233, 233, 233);
+}
+
+.rating{
+    color: rgb(233, 233, 233);
 }
 
 main:hover{
-    background-color: rgba(1, 4, 48, 0.5);
+    background-color: #0f3044; 
 
+}
+
+.img{
+    border-radius: 15px;
+    width: 90%;
+    height: 63%;
 }

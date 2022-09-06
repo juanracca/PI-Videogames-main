@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export function getVideogame(){
     return async function(dispatch){
-        var json = await axios.get('http://localhost:3001/videogames');
+        var json = await axios.get('http://localhost:3002/videogames');
         console.log(json.data)
         return dispatch({
             type: 'GET_VIDEOGAMES',
@@ -13,7 +13,7 @@ export function getVideogame(){
 
 export function getGenres(){
     return async function(dispatch){
-        var info = await axios.get('http://localhost:3001/genres', {
+        var info = await axios.get('http://localhost:3002/genres', {
 
         });
         return dispatch({
@@ -25,7 +25,7 @@ export function getGenres(){
 
 export function postVideogame(payload){
     return async function(dispatch){
-        const res = await axios.post('http://localhost:3001/videogame', payload)
+        const res = await axios.post('http://localhost:3002/videogame', payload)
         return res;
     };
 };
@@ -33,7 +33,7 @@ export function postVideogame(payload){
 export function getDetail(id){
     return async function(dispatch){
         try{
-            const detail = await axios.get('http://localhost:3001/videogames/' + id)
+            const detail = await axios.get('http://localhost:3002/videogames/' + id)
             return dispatch({
                 type: 'GET_DETAILS',
                 payload: [detail.data]
@@ -47,7 +47,7 @@ export function getDetail(id){
 export function getNameVideogames(payload){
     return async function(dispatch){
         try {
-            var json = await axios.get('http://localhost:3001/videogames?name=' + payload);
+            var json = await axios.get('http://localhost:3002/videogames?name=' + payload);
             return dispatch ({
                 type: 'GET_NAME_VIDEOGAMES',
                 payload: json.data
@@ -90,7 +90,7 @@ export function filterByRating(payload){
 export function getPlatforms(){
 
     return async function(dispatch){
-        var json = await axios.get('http://localhost:3001/platforms');
+        var json = await axios.get('http://localhost:3002/platforms');
 
         return dispatch({
             type: 'GET_PLATFORMS',

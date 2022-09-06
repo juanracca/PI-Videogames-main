@@ -1,40 +1,40 @@
 .divH{
-    background-image: url('https://comarketing-news.fr/wp-content/uploads/gaming-france-1024x576.jpg');
-    -webkit-box-align: center;
-    -webkit-background-size: center; 
-    -moz-background-size: center;
-    -o-background-size: center;
-    background-size: 1500px;
-    min-height: 100vh;
-    padding-top: 20px; 
+    background-color: #062436; 
+    background-size: cover;
+}
+
+.divHeader{
+    background-color: #1a4e6f; 
+    padding-bottom: 12px;
+    padding-top: 10px;
 }
 
 .Card{
     display: inline-block;
     border: 2px medium;
-    padding: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .titleH{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
     color: white;
-    border-color: red;
     margin-top: -30px;
-    padding-top: -50px;
 }
 
 .createH{
-    border: 2px solid lightskyblue;
+    border: none;
+    background-color: #062436; 
     border-radius: 5px;
     height: 50px;
     width: 200px;
     font-size: 15px;
-    text-anchor: middle;
-    background-color: transparent;
-    color: lightskyblue;
-    margin-left: -1200px;
-    margin-top: -50px;
+    padding-left: 23px;
+    padding-top: 15px;
+    color: rgb(221, 234, 242);
+    margin-left: 1%;
+    display: flex;
 }
 
 button:hover{
@@ -42,45 +42,76 @@ button:hover{
 }
 
 .reloadButton{
-    border: 2px solid lightskyblue;
+    border: none;
+    background-color: #062436; 
     border-radius: 5px;
-    background-color: transparent;
     font-size: 15px;
-    color: lightskyblue;
+    color: rgb(220, 228, 233);
     width: 200px;
     height: 50px;
-    margin-left: -1200px;
-    margin-top: -1000px;
+    margin-left: 1%;
+    margin-top: -1%;
+    display: flex;
+    padding-left: 33px;
+    padding-top: 15px;
 }
 
 .filterGenre{
     width: 100px;
-    background-color: transparent;
+    height: 30px;
+    background-color: #062436; 
     font-size: 15px;
-    border: lightskyblue solid 2px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(244, 242, 239);
+    padding-left: 10px;
 }
 
 .filterName{
-    background-color: transparent;
     width: 100px;
+    height: 30px;
+    background-color: #062436; 
     font-size: 15px;
-    border: lightskyblue solid 2px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(244, 242, 239);
+    padding-left: 10px;
 } 
 
 .filterCreated{
     width: 100px;
+    height: 30px;
+    background-color: #062436; 
     font-size: 15px;
-    background-color: transparent;
-    border: lightskyblue solid 2px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(244, 242, 239);
+    padding-left: 10px;
 }
 
 .filterRating{
     width: 100px;
+    height: 30px;
+    background-color: #062436; 
     font-size: 15px;
-    background-color: transparent;
-    border: lightskyblue solid 2px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(244, 242, 239);
+    padding-left: 10px;
 }
 
 .paginadoH{
     padding-left:  -100px;
+}
+
+:link{
+    text-decoration: none;
 }

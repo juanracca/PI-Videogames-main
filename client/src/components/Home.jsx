@@ -63,6 +63,7 @@ export default function Home(){
     };
         return(
             <div className='divH'>
+                <div className='divHeader'>
             <Link to = '/videogame'>
                 <button className='createH'>Create your videogame</button>
             </Link>
@@ -94,6 +95,7 @@ export default function Home(){
                     <option value='higher'>Higher</option>
                     <option value='lower'>Lower</option>
                 </select>
+                    </div>
                 <Paginado
                 className='paginadoH'
                 videogamesPerPage = {videogamesPerPage}

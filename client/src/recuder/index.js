@@ -9,6 +9,7 @@ const initialState = {
 function rootReducer(state = initialState, action) {
     switch(action.type){
         case 'GET_VIDEOGAMES':
+            console.log(action.payload)
             return {
                 ...state,
                 videogames: action.payload,
