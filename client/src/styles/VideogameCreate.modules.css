@@ -1,5 +1,5 @@
 .divVideoCreate{
-    background-image: url('https://comarketing-news.fr/wp-content/uploads/gaming-france-1024x576.jpg');
+    background-image: url('https://wallpaperaccess.com/full/1626298.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -15,7 +15,7 @@
     border: lightskyblue solid 2px;
     background-color: transparent;
     border-radius: 5px;
-    color: lightskyblue;
+    color: rgb(245, 247, 249);
     height: 40px;
     width: 70px;
     font-size: 20px;
@@ -27,94 +27,97 @@
     border-radius: 5px;
     margin-left: 400px;
     margin-right: 400px;
-
 }
 
-.nameCreate{
-    color: white;
-    font-size: 20px;
-    margin-top: 20px;
-}
 .inputNameCreate{
     border: solid lightskyblue 2px;
+    background-color: transparent;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 30px;
     text-align:left;
+    padding-left: 20px;
+    height: 30px;
+    width: 80%;
+    color: white;
 }
 
-.descCreate{
-    color: white;
-    font-size: 20px;
-}
 .inputDescCreate{
     border: solid lightskyblue 2px;
+    background-color: transparent;
     border-radius: 5px;
-    /* margin-top: 20px; */
+    margin-top: 10px;
     text-align:left;
+    padding-left: 20px;
+    height: 30px;
+    width: 80%;
+    color: white;
 }
 
-.releasedCreate{
-    color: white;
-    font-size: 20px;
-}
 .inputReleasedCreate{
     border: solid lightskyblue 2px;
+    background-color: transparent;
     border-radius: 5px;
-    /* margin-top: 20px; */
+    margin-top: 10px;
     text-align:left;
+    padding-left: 20px;
+    height: 30px;
+    width: 80%;
+    color: white;
 }
 
-.ratingCreate{
-    color: white;
-    font-size: 20px;
-}
 .inputRatingCreate{
     border: solid lightskyblue 2px;
+    background-color: transparent;
     border-radius: 5px;
-    /* margin-top: 20px; */
+    margin-top: 10px;
     text-align:left;
+    padding-left: 20px;
+    height: 30px;
+    width: 80%;
+    color: white;
 }
 
-.imageCreate{
-    color: white;
-    font-size: 20px;
-}
 .inputImageCreate{
     border: solid lightskyblue 2px;
+    background-color: transparent;
     border-radius: 5px;
-    /* margin-top: 20px; */
+    margin-top: 10px;
     text-align:left;
+    padding-left: 20px;
+    height: 30px;
+    width: 80%;
+    color: white;
 }
 
-.platformsCreate{
-    color: white;
-    font-size: 20px;
-}
 .selectPlatformsCreate{
     border: solid lightskyblue 2px;
+    background-color: transparent;
     border-radius: 5px;
-    /* margin-top: 20px; */
+    margin-top: 10px;
     text-align:left;
-    background-color: white;
+    padding-left: 15px;
+    height: 35px;
+    width: 85%;
+    color: white;
 }
 
-.genresCreate{
-    color: white;
-    font-size: 20px;
-}
 .selectGenresCreate{
     border: solid lightskyblue 2px;
+    background-color: transparent;
     border-radius: 5px;
-    /* margin-top: 20px; */
+    margin-top: 10px;
     text-align:left;
-    background-color: white;
+    padding-left: 15px;
+    height: 35px;
+    width: 85%;
+    color: white;
 }
 
 .buttonCreate{
     border: lightskyblue solid 2px;
     background-color: transparent;
     border-radius: 5px;
-    color: lightskyblue;
+    color: rgb(245, 248, 250);
     height: 40px;
     width: 100px;
     font-size: 15px;
@@ -122,12 +125,6 @@
     margin-top: 20px;
 }
 
-.divFormCreate{
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 150px;
-    margin-right: 150px; */
-    /* margin-top: 5px; */
-    /* margin-bottom: 20px; */
+::placeholder{
+    color: white;
 }

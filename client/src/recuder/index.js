@@ -9,7 +9,6 @@ const initialState = {
 function rootReducer(state = initialState, action) {
     switch(action.type){
         case 'GET_VIDEOGAMES':
-            console.log(action.payload)
             return {
                 ...state,
                 videogames: action.payload,
@@ -28,7 +27,6 @@ function rootReducer(state = initialState, action) {
         case 'GET_GENRES':
             return {
                 ...state,
-                // genres: [{name:'juan', id: 1}, {name: 'carlos', id: 2}]
                 genres: action.payload
             };
         case 'POST_VIDEOGAME':

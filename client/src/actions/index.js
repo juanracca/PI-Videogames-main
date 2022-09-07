@@ -3,7 +3,6 @@ import axios from 'axios';
 export function getVideogame(){
     return async function(dispatch){
         var json = await axios.get('http://localhost:3002/videogames');
-        console.log(json.data)
         return dispatch({
             type: 'GET_VIDEOGAMES',
             payload: json.data

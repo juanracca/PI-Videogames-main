@@ -20,7 +20,6 @@ export default function Detail(props){
 
     return(
         <div className='divDetailBack'>
-            <h1 className='comaPrinci'>'</h1>
             {
                 myVideogame.length > 0 ?
                 <div className='divDetail'>
@@ -37,9 +36,8 @@ export default function Detail(props){
                     <h2 className='genresDetail'>{!myVideogame[0].createInDb ? myVideogame[0].genres.map(el => `${el}, `) : myVideogame[0].genres.map(el => `${el.name}, `)}</h2>
                     <h2 className='descriptionDetail'>{myVideogame[0].description}</h2>
                 </div> :
-                <p className='loading'>Loading...</p>
+                <img className='marioDetail' src="https://media0.giphy.com/media/lhvyCCcFuQFKo/giphy.gif?cid=6c09b95252f93c00f6561496c09c388674e9553a75abe6d6&rid=giphy.gif&ct=s" alt="" />
             }
-            <h1 className='comaFinal'>'</h1>
         </div>
     );
 };

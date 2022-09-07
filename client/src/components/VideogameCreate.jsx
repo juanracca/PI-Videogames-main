@@ -153,37 +153,31 @@ export default function VideogameCreate(){
             <h1 className='titleVideoCreate'>Create your videogame!</h1>
             <form className='formulario'>
                 <div className='divFormCreate'>
-                    <label className='nameCreate'>Name:</label>
-                    <input className='inputNameCreate' type='text' value={input.name} name='name' onChange={e => handleChange(e)}/>{errors.name && (
+                    <input placeholder='Name' className='inputNameCreate' type='text' value={input.name} name='name' onChange={e => handleChange(e)}/>{errors.name && (
                         <p className='error'>{errors.name}</p>
                     )}
                 </div>
                 <div className='divFormCreate'>
-                    <label className='descCreate'>Description:</label>
-                    <input className='inputDescCreate' type='text' value={input.description} name='description' onChange={e => handleChange(e)}/>{errors.description && (
+                    <input placeholder='Description' className='inputDescCreate' type='text' value={input.description} name='description' onChange={e => handleChange(e)}/>{errors.description && (
                         <p className='error'>{errors.description}</p>
                     )}
                 </div>
                 <div className='divFormCreate'>
-                    <label className='releasedCreate'>Release date:</label>
-                    <input className='inputReleasedCreate' type='text' value={input.releaseDate} name='releaseDate' onChange={e => handleChange(e)}/>{errors.releaseDate && (
+                    <input placeholder='Release Date' className='inputReleasedCreate' type='text' value={input.releaseDate} name='releaseDate' onChange={e => handleChange(e)}/>{errors.releaseDate && (
                         <p className='error'>{errors.releaseDate}</p>
                     )}
                 </div>
                 <div className='divFormCreate'>
-                    <label className='ratingCreate'>Rating:</label>
-                    <input className='inputRatingCreate' type='text' value={input.rating} name='rating' onChange={e => handleChange(e)}/>{errors.rating && (
+                    <input placeholder='Rating' className='inputRatingCreate' type='text' value={input.rating} name='rating' onChange={e => handleChange(e)}/>{errors.rating && (
                         <p className='error'>{errors.rating}</p>
                     )}
                 </div>
                 <div className='divFormCreate'>
-                    <label className='imageCreate'>Image:</label>
-                    <input className='inputImageCreate' type='text' value={input.img} name='img' onChange={e => handleChange(e)}/>{errors.img && (
+                    <input placeholder='Image' className='inputImageCreate' type='text' value={input.img} name='img' onChange={e => handleChange(e)}/>{errors.img && (
                         <p className='error'>{errors.img}</p>
                     )}
                 </div>
                 <div className='divFormCreate' >
-                    <label className='platformsCreate'>Platforms: 
                         <select className='selectPlatformsCreate' onChange={e => handleSelectPlatforms(e)}>
                         <option>Platforms</option>
                             {platforms?.map(el => {
@@ -192,7 +186,6 @@ export default function VideogameCreate(){
                                 )
                             })}
                         </select>
-                    </label>
                 </div>
                 {input.platforms.map(el => 
                     <div key={el}>
@@ -201,7 +194,6 @@ export default function VideogameCreate(){
                     </div>
                 )}
                 <div className='divFormCreate'>
-                    <label className='genresCreate'>Genres:
                         <select className='selectGenresCreate' onChange={e => {handleSelect(e)}}>
                         <option>Genres</option>
                             {genres.map(el => (
@@ -214,7 +206,6 @@ export default function VideogameCreate(){
                                 <button className='buttonX' name={el} onClick={(e) => {handleDelete(e)}}>X</button>
                             </div>
                         )}
-                        </label>
                 </div>
                 <div>
                     <button className='buttonCreate' type='submit' onClick={e => {handleClick(e)}}>CREATE</button>

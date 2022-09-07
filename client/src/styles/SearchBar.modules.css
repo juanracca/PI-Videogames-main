@@ -1,18 +1,31 @@
 .inputSearch{
     background-color: whitesmoke;
     font-size: 15px;
-    border: lightskyblue solid 2px;
+    border: none;
+    height: 25px;
     border-radius: 5px;
+    padding-left: 10px;
+    display: flex;
+    margin-top: 25%;
+    margin-left: -40%;
+    margin-bottom: -24%;
 }
 
 .buttonSearch{
     font-size: 15px;
-    width: 80px;
-    height: 25px;
+    width: 100px;
+    height: 30px;
+    padding-top: 6px;
+    padding-left: 25px;
     border-radius: 5px;
-    border: lightskyblue solid 2px;
-    background-color: transparent;
-    color: lightskyblue;
+    margin-top: 10%;
+    margin-bottom: -15%;
+    margin-left: 45%;
+    border: none;
+    background-color: #062436; 
+    color: rgb(238, 240, 241);
+    display: flex;
+
 }
 
 .divSearch{

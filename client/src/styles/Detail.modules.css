@@ -1,20 +1,13 @@
 .divDetailBack{
-    background-image: url('https://comarketing-news.fr/wp-content/uploads/gaming-france-1024x576.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 100vh;
-    margin-top: -50px; 
-    margin-bottom: -50px;
-    /* padding-top: -100px; */
+    background-color: #062436; 
 }
 
 .divDetail{
-    border:lightskyblue solid 2px;
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
+    border:none;
+    background-color: #1a4e6f; 
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
     border-radius: 10px;
     padding-top: 10px;
     
@@ -26,14 +19,13 @@
     border-radius: 5px;
     height: 400px;
     width: 600px;
-    /* padding-inline-start: -400px; */
 }
 
 .buttonDetail1{
-    border: lightskyblue solid 2px;
-    background-color: transparent;
+    border: none;
+    background-color: #062436; 
     border-radius: 5px;
-    color: lightskyblue;
+    color: rgb(244, 238, 238);
     height: 40px;
     width: 70px;
     font-size: 20px;
@@ -47,64 +39,52 @@ button:hover{
 
 
 .nameDetail{
-    color: lightskyblue;
+    color: rgb(238, 241, 244);
     margin-top: 20px;
     font-size: 50px;
     margin-left: 70px;
-    /* border: solid black 2px; */
     margin-right: 700px;
 }
 
 .descriptionDetail{
-    color: lightskyblue;
+    color: rgb(238, 241, 244);
     font-size: 18px;
     text-align: justify;
     margin-left: 20px;
     margin-right: 19px;
     margin-top: 60px;
-    /* border: solid black 2px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .ratingDetail{
-    color: lightskyblue;
+    color: rgb(238, 241, 244);
     margin-left: 70px;
     margin-right: 700px;
-    /* border: solid black 2px; */
     margin-top: -250px;
 }
 
 .releasedDetail{
-    color: lightskyblue;
+    color: rgb(238, 241, 244);
     margin-left: 70px;
     margin-right: 700px;
-    /* border: solid black 2px; */
 }
 
 .platformsDetail{
-    color: lightskyblue;
+    color: rgb(238, 241, 244);
     margin-left: 70px;
     margin-right: 700px;
-    /* border: solid black 2px; */
     font-size: 21px;
 }
 
 .genresDetail{
-    color: lightskyblue;
+    color: rgb(238, 241, 244);
     margin-left: 70px;
     margin-right: 700px;
-    /* border: solid black 2px; */
 }
 
-.comaFinal{
-    color: transparent;
-}
-
-.comaPrinci{
-    color: transparent;
-}
-
-.loading{
-    margin-bottom: -100px;
-    margin-top: 200px;
-    padding-top: 200px;
+.marioDetail{
+    height: 10rem;
+    width: 10rem;
+    margin-top: 10%;
 }

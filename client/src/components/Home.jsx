@@ -27,9 +27,6 @@ export default function Home(){
         setCurrenPage(pageNumber);
     };
 
-    console.log(allVideogames)
-    console.log(genres)
-
     useEffect(() => {
         dispatch(getVideogame()); 
         dispatch(getGenres()); 
@@ -67,7 +64,9 @@ export default function Home(){
             <Link to = '/videogame'>
                 <button className='createH'>Create your videogame</button>
             </Link>
+            <Link to='/'>
             <h1 className='titleH'>VIDEOGAMES</h1>
+            </Link>
             <button className='reloadButton' onClick={e => {handleClick(e)}}>Reload videogames</button>
                     <SearchBar/>
                 <select className='filterName' onChange={e => {handleSort(e)}}>
@@ -103,6 +102,8 @@ export default function Home(){
                 paginado = {paginado}
                 />
             {
+                allVideogames < 1 ?
+                <img alt='' className='sonyc' src='https://i.pinimg.com/originals/99/d5/75/99d57579caaa6c061b2172d2e8030a78.gif'/> :
                 currentVideogames?.map(el => {
                     return(
                         <div className='Card'>
